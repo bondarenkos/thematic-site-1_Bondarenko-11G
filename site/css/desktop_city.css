@@ -1,0 +1,73 @@
+body{
+    background-color: #000000;
+}
+.header{
+    width: calc(100% - 90px);
+    position: relative;
+    padding: 45px;
+}
+.logo{
+    width: 320px;
+    height: 54px;
+    background-image: url(../img/logo.jpg);
+    background-position: center;
+}
+.menu{
+    right: 45px;
+    top: 45px;
+    position: absolute;
+}
+.m1{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Tahoma, serif;
+    display: inline-block;
+    margin: 0 0 0 40px;
+}
+.content_text{
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+    display: inline-block;
+    font-family: Tahoma, serif;
+    width: calc(49% - 100px);
+}
+
+.content:hover{
+    box-shadow: 0 0 100px rgb(118, 10, 151);
+    transform: scale(1.04);    
+}
+.content_main{
+    width: 100%;
+}
+.content{
+    width: 50%;
+    display: inline-block;
+    border-radius: 30px;
+    margin: 50px;
+    transition: all 0.3s;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+a{
+    text-decoration: none;
+}
+
+.gps{
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.line{
+    width: 100%;
+    line-height: 15px;
+    font-size: 30px;
+    border-radius: 15px;
+    font-family: Tahoma, serif;
+    color:rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(118, 10, 151);
+    text-align: center;
+}
